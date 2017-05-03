@@ -19,7 +19,6 @@
 		8311C6FF191CCB2300AF33F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6E4191CCB2300AF33F3 /* Foundation.framework */; };
 		8311C700191CCB2300AF33F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6E8191CCB2300AF33F3 /* UIKit.framework */; };
 		8311C708191CCB2300AF33F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8311C706191CCB2300AF33F3 /* InfoPlist.strings */; };
-		8311C71A191CCC1700AF33F3 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C713191CCC1700AF33F3 /* libOCMock.a */; };
 		8311C727191CCC7800AF33F3 /* WarCarftIII_Tests_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71D191CCC7800AF33F3 /* WarCarftIII_Tests_01.m */; };
 		8311C728191CCC7800AF33F3 /* WarCarftIII_Tests_07.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71E191CCC7800AF33F3 /* WarCarftIII_Tests_07.m */; };
 		8311C729191CCC7800AF33F3 /* WarCarftIII_Tests_08.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71F191CCC7800AF33F3 /* WarCarftIII_Tests_08.m */; };
@@ -62,7 +61,6 @@
 		8311C6FD191CCB2300AF33F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8311C705191CCB2300AF33F3 /* Warcraft 3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Warcraft 3Tests-Info.plist"; sourceTree = "<group>"; };
 		8311C707191CCB2300AF33F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8311C713191CCC1700AF33F3 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = usr/lib/libOCMock.a; sourceTree = "<group>"; };
 		8311C71D191CCC7800AF33F3 /* WarCarftIII_Tests_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_01.m; sourceTree = "<group>"; };
 		8311C71E191CCC7800AF33F3 /* WarCarftIII_Tests_07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_07.m; sourceTree = "<group>"; };
 		8311C71F191CCC7800AF33F3 /* WarCarftIII_Tests_08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_08.m; sourceTree = "<group>"; };
@@ -79,12 +77,6 @@
 		8311C737191CCCCD00AF33F3 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
 		8311C738191CCCCD00AF33F3 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
 		8311C739191CCCCD00AF33F3 /* WarCarftIII-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WarCarftIII-Prefix.pch"; sourceTree = "<group>"; };
-		8311C740191CCD1400AF33F3 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "usr/lib/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		8311C741191CCD1400AF33F3 /* OCMArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = usr/lib/OCMock/OCMArg.h; sourceTree = "<group>"; };
-		8311C742191CCD1400AF33F3 /* OCMConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = usr/lib/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
-		8311C743191CCD1400AF33F3 /* OCMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = usr/lib/OCMock/OCMock.h; sourceTree = "<group>"; };
-		8311C744191CCD1400AF33F3 /* OCMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = usr/lib/OCMock/OCMockObject.h; sourceTree = "<group>"; };
-		8311C745191CCD1400AF33F3 /* OCMockRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMockRecorder.h; path = usr/lib/OCMock/OCMockRecorder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +85,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8311C6E7191CCB2300AF33F3 /* CoreGraphics.framework in Frameworks */,
-				8311C71A191CCC1700AF33F3 /* libOCMock.a in Frameworks */,
 				8311C6E9191CCB2300AF33F3 /* UIKit.framework in Frameworks */,
 				8311C6E5191CCB2300AF33F3 /* Foundation.framework in Frameworks */,
 			);
@@ -134,7 +125,6 @@
 		8311C6E3191CCB2300AF33F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8311C71B191CCC1B00AF33F3 /* OCMock */,
 				8311C6E4191CCB2300AF33F3 /* Foundation.framework */,
 				8311C6E6191CCB2300AF33F3 /* CoreGraphics.framework */,
 				8311C6E8191CCB2300AF33F3 /* UIKit.framework */,
@@ -198,20 +188,6 @@
 				8311C706191CCB2300AF33F3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8311C71B191CCC1B00AF33F3 /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				8311C713191CCC1700AF33F3 /* libOCMock.a */,
-				8311C740191CCD1400AF33F3 /* NSNotificationCenter+OCMAdditions.h */,
-				8311C741191CCD1400AF33F3 /* OCMArg.h */,
-				8311C742191CCD1400AF33F3 /* OCMConstraint.h */,
-				8311C743191CCD1400AF33F3 /* OCMock.h */,
-				8311C744191CCD1400AF33F3 /* OCMockObject.h */,
-				8311C745191CCD1400AF33F3 /* OCMockRecorder.h */,
-			);
-			name = OCMock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
