@@ -20,7 +20,6 @@
 		8311C700191CCB2300AF33F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6E8191CCB2300AF33F3 /* UIKit.framework */; };
 		8311C708191CCB2300AF33F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8311C706191CCB2300AF33F3 /* InfoPlist.strings */; };
 		8311C71A191CCC1700AF33F3 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C713191CCC1700AF33F3 /* libOCMock.a */; };
-		8311C71C191CCC5100AF33F3 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C713191CCC1700AF33F3 /* libOCMock.a */; };
 		8311C727191CCC7800AF33F3 /* WarCarftIII_Tests_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71D191CCC7800AF33F3 /* WarCarftIII_Tests_01.m */; };
 		8311C728191CCC7800AF33F3 /* WarCarftIII_Tests_07.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71E191CCC7800AF33F3 /* WarCarftIII_Tests_07.m */; };
 		8311C729191CCC7800AF33F3 /* WarCarftIII_Tests_08.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71F191CCC7800AF33F3 /* WarCarftIII_Tests_08.m */; };
@@ -33,7 +32,6 @@
 		8311C73C191CCCCD00AF33F3 /* Footman.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C734191CCCCD00AF33F3 /* Footman.m */; };
 		8311C73D191CCCCD00AF33F3 /* Peasant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C736191CCCCD00AF33F3 /* Peasant.m */; };
 		8311C73E191CCCCD00AF33F3 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C738191CCCCD00AF33F3 /* Unit.m */; };
-		8311C73F191CCCCD00AF33F3 /* WarCarftIII.1 in Resources */ = {isa = PBXBuildFile; fileRef = 8311C73A191CCCCD00AF33F3 /* WarCarftIII.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +79,6 @@
 		8311C737191CCCCD00AF33F3 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
 		8311C738191CCCCD00AF33F3 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
 		8311C739191CCCCD00AF33F3 /* WarCarftIII-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WarCarftIII-Prefix.pch"; sourceTree = "<group>"; };
-		8311C73A191CCCCD00AF33F3 /* WarCarftIII.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = WarCarftIII.1; sourceTree = "<group>"; };
 		8311C740191CCD1400AF33F3 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "usr/lib/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		8311C741191CCD1400AF33F3 /* OCMArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = usr/lib/OCMock/OCMArg.h; sourceTree = "<group>"; };
 		8311C742191CCD1400AF33F3 /* OCMConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = usr/lib/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
@@ -106,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8311C71C191CCC5100AF33F3 /* libOCMock.a in Frameworks */,
 				8311C6FE191CCB2300AF33F3 /* XCTest.framework in Frameworks */,
 				8311C700191CCB2300AF33F3 /* UIKit.framework in Frameworks */,
 				8311C6FF191CCB2300AF33F3 /* Foundation.framework in Frameworks */,
@@ -159,7 +155,6 @@
 				8311C737191CCCCD00AF33F3 /* Unit.h */,
 				8311C738191CCCCD00AF33F3 /* Unit.m */,
 				8311C739191CCCCD00AF33F3 /* WarCarftIII-Prefix.pch */,
-				8311C73A191CCCCD00AF33F3 /* WarCarftIII.1 */,
 				8311C6F3191CCB2300AF33F3 /* WCAppDelegate.h */,
 				8311C6F4191CCB2300AF33F3 /* WCAppDelegate.m */,
 				8311C6F6191CCB2300AF33F3 /* Images.xcassets */,
@@ -264,7 +259,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WC;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Lighthouse Labs";
 				TargetAttributes = {
 					8311C6FB191CCB2300AF33F3 = {
@@ -295,7 +290,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8311C73F191CCCCD00AF33F3 /* WarCarftIII.1 in Resources */,
 				8311C6EF191CCB2300AF33F3 /* InfoPlist.strings in Resources */,
 				8311C6F7191CCB2300AF33F3 /* Images.xcassets in Resources */,
 			);
@@ -384,14 +378,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -404,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -423,20 +422,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -450,10 +454,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Warcraft 3/Warcraft 3-Prefix.pch";
 				INFOPLIST_FILE = "Warcraft 3/Warcraft 3-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/usr/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -468,10 +469,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Warcraft 3/Warcraft 3-Prefix.pch";
 				INFOPLIST_FILE = "Warcraft 3/Warcraft 3-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/usr/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -499,10 +497,7 @@
 					"$(SRCROOT)/usr/lib/**",
 				);
 				INFOPLIST_FILE = "Warcraft 3Tests/Warcraft 3Tests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/usr/lib",
-					"$(PROJECT_DIR)/usr/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -535,10 +530,7 @@
 					"$(SRCROOT)/usr/lib/**",
 				);
 				INFOPLIST_FILE = "Warcraft 3Tests/Warcraft 3Tests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/usr/lib",
-					"$(PROJECT_DIR)/usr/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
