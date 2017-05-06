@@ -8,33 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		12F9E63C1B6C489000C0C6FB /* Barracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9E63B1B6C489000C0C6FB /* Barracks.m */; };
-		8311C6E5191CCB2300AF33F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6E4191CCB2300AF33F3 /* Foundation.framework */; };
-		8311C6E7191CCB2300AF33F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6E6191CCB2300AF33F3 /* CoreGraphics.framework */; };
-		8311C6E9191CCB2300AF33F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6E8191CCB2300AF33F3 /* UIKit.framework */; };
+		222694431EBE570F00EAC25F /* WarCarftIII_Tests_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226943A1EBE570F00EAC25F /* WarCarftIII_Tests_01.m */; };
+		222694441EBE570F00EAC25F /* WarCarftIII_Tests_07.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226943B1EBE570F00EAC25F /* WarCarftIII_Tests_07.m */; };
+		222694451EBE570F00EAC25F /* WarCarftIII_Tests_08.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226943C1EBE570F00EAC25F /* WarCarftIII_Tests_08.m */; };
+		222694461EBE570F00EAC25F /* WarCraftIII_Tests_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226943D1EBE570F00EAC25F /* WarCraftIII_Tests_02.m */; };
+		222694471EBE570F00EAC25F /* WarCraftIII_Tests_03.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226943E1EBE570F00EAC25F /* WarCraftIII_Tests_03.m */; };
+		222694481EBE570F00EAC25F /* WarCraftIII_Tests_04.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226943F1EBE570F00EAC25F /* WarCraftIII_Tests_04.m */; };
+		222694491EBE570F00EAC25F /* WarCraftIII_Tests_05.m in Sources */ = {isa = PBXBuildFile; fileRef = 222694401EBE570F00EAC25F /* WarCraftIII_Tests_05.m */; };
+		2226944A1EBE570F00EAC25F /* WarCraftIII_Tests_06.m in Sources */ = {isa = PBXBuildFile; fileRef = 222694411EBE570F00EAC25F /* WarCraftIII_Tests_06.m */; };
+		2226944B1EBE570F00EAC25F /* WarCraftIII_Tests_09.m in Sources */ = {isa = PBXBuildFile; fileRef = 222694421EBE570F00EAC25F /* WarCraftIII_Tests_09.m */; };
+		2226944D1EBE572000EAC25F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2226944C1EBE572000EAC25F /* Info.plist */; };
 		8311C6EF191CCB2300AF33F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8311C6ED191CCB2300AF33F3 /* InfoPlist.strings */; };
 		8311C6F1191CCB2300AF33F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C6F0191CCB2300AF33F3 /* main.m */; };
 		8311C6F5191CCB2300AF33F3 /* WCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C6F4191CCB2300AF33F3 /* WCAppDelegate.m */; };
 		8311C6F7191CCB2300AF33F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8311C6F6191CCB2300AF33F3 /* Images.xcassets */; };
-		8311C6FE191CCB2300AF33F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6FD191CCB2300AF33F3 /* XCTest.framework */; };
-		8311C6FF191CCB2300AF33F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6E4191CCB2300AF33F3 /* Foundation.framework */; };
-		8311C700191CCB2300AF33F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8311C6E8191CCB2300AF33F3 /* UIKit.framework */; };
-		8311C708191CCB2300AF33F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8311C706191CCB2300AF33F3 /* InfoPlist.strings */; };
-		8311C727191CCC7800AF33F3 /* WarCarftIII_Tests_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71D191CCC7800AF33F3 /* WarCarftIII_Tests_01.m */; };
-		8311C728191CCC7800AF33F3 /* WarCarftIII_Tests_07.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71E191CCC7800AF33F3 /* WarCarftIII_Tests_07.m */; };
-		8311C729191CCC7800AF33F3 /* WarCarftIII_Tests_08.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C71F191CCC7800AF33F3 /* WarCarftIII_Tests_08.m */; };
-		8311C72B191CCC7800AF33F3 /* WarCraftIII_Tests_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C721191CCC7800AF33F3 /* WarCraftIII_Tests_02.m */; };
-		8311C72C191CCC7800AF33F3 /* WarCraftIII_Tests_03.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C722191CCC7800AF33F3 /* WarCraftIII_Tests_03.m */; };
-		8311C72D191CCC7800AF33F3 /* WarCraftIII_Tests_04.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C723191CCC7800AF33F3 /* WarCraftIII_Tests_04.m */; };
-		8311C72E191CCC7800AF33F3 /* WarCraftIII_Tests_05.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C724191CCC7800AF33F3 /* WarCraftIII_Tests_05.m */; };
-		8311C72F191CCC7800AF33F3 /* WarCraftIII_Tests_06.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C725191CCC7800AF33F3 /* WarCraftIII_Tests_06.m */; };
-		8311C730191CCC7800AF33F3 /* WarCraftIII_Tests_09.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C726191CCC7800AF33F3 /* WarCraftIII_Tests_09.m */; };
 		8311C73C191CCCCD00AF33F3 /* Footman.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C734191CCCCD00AF33F3 /* Footman.m */; };
 		8311C73D191CCCCD00AF33F3 /* Peasant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C736191CCCCD00AF33F3 /* Peasant.m */; };
 		8311C73E191CCCCD00AF33F3 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C738191CCCCD00AF33F3 /* Unit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8311C701191CCB2300AF33F3 /* PBXContainerItemProxy */ = {
+		222694351EBE56F600EAC25F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8311C6D9191CCB2300AF33F3 /* Project object */;
 			proxyType = 1;
@@ -46,10 +40,18 @@
 /* Begin PBXFileReference section */
 		12F9E63A1B6C489000C0C6FB /* Barracks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barracks.h; sourceTree = "<group>"; };
 		12F9E63B1B6C489000C0C6FB /* Barracks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barracks.m; sourceTree = "<group>"; };
+		222694301EBE56F600EAC25F /* Warcraft3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Warcraft3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2226943A1EBE570F00EAC25F /* WarCarftIII_Tests_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_01.m; sourceTree = "<group>"; };
+		2226943B1EBE570F00EAC25F /* WarCarftIII_Tests_07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_07.m; sourceTree = "<group>"; };
+		2226943C1EBE570F00EAC25F /* WarCarftIII_Tests_08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_08.m; sourceTree = "<group>"; };
+		2226943D1EBE570F00EAC25F /* WarCraftIII_Tests_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_02.m; sourceTree = "<group>"; };
+		2226943E1EBE570F00EAC25F /* WarCraftIII_Tests_03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_03.m; sourceTree = "<group>"; };
+		2226943F1EBE570F00EAC25F /* WarCraftIII_Tests_04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_04.m; sourceTree = "<group>"; };
+		222694401EBE570F00EAC25F /* WarCraftIII_Tests_05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_05.m; sourceTree = "<group>"; };
+		222694411EBE570F00EAC25F /* WarCraftIII_Tests_06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_06.m; sourceTree = "<group>"; };
+		222694421EBE570F00EAC25F /* WarCraftIII_Tests_09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_09.m; sourceTree = "<group>"; };
+		2226944C1EBE572000EAC25F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8311C6E1191CCB2300AF33F3 /* Warcraft 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warcraft 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8311C6E4191CCB2300AF33F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8311C6E6191CCB2300AF33F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8311C6E8191CCB2300AF33F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8311C6EC191CCB2300AF33F3 /* Warcraft 3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Warcraft 3-Info.plist"; sourceTree = "<group>"; };
 		8311C6EE191CCB2300AF33F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8311C6F0191CCB2300AF33F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,19 +59,6 @@
 		8311C6F3191CCB2300AF33F3 /* WCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCAppDelegate.h; sourceTree = "<group>"; };
 		8311C6F4191CCB2300AF33F3 /* WCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAppDelegate.m; sourceTree = "<group>"; };
 		8311C6F6191CCB2300AF33F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8311C6FC191CCB2300AF33F3 /* Warcraft 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Warcraft 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8311C6FD191CCB2300AF33F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8311C705191CCB2300AF33F3 /* Warcraft 3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Warcraft 3Tests-Info.plist"; sourceTree = "<group>"; };
-		8311C707191CCB2300AF33F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8311C71D191CCC7800AF33F3 /* WarCarftIII_Tests_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_01.m; sourceTree = "<group>"; };
-		8311C71E191CCC7800AF33F3 /* WarCarftIII_Tests_07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_07.m; sourceTree = "<group>"; };
-		8311C71F191CCC7800AF33F3 /* WarCarftIII_Tests_08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCarftIII_Tests_08.m; sourceTree = "<group>"; };
-		8311C721191CCC7800AF33F3 /* WarCraftIII_Tests_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_02.m; sourceTree = "<group>"; };
-		8311C722191CCC7800AF33F3 /* WarCraftIII_Tests_03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_03.m; sourceTree = "<group>"; };
-		8311C723191CCC7800AF33F3 /* WarCraftIII_Tests_04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_04.m; sourceTree = "<group>"; };
-		8311C724191CCC7800AF33F3 /* WarCraftIII_Tests_05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_05.m; sourceTree = "<group>"; };
-		8311C725191CCC7800AF33F3 /* WarCraftIII_Tests_06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_06.m; sourceTree = "<group>"; };
-		8311C726191CCC7800AF33F3 /* WarCraftIII_Tests_09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarCraftIII_Tests_09.m; sourceTree = "<group>"; };
 		8311C733191CCCCD00AF33F3 /* Footman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Footman.h; sourceTree = "<group>"; };
 		8311C734191CCCCD00AF33F3 /* Footman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Footman.m; sourceTree = "<group>"; };
 		8311C735191CCCCD00AF33F3 /* Peasant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peasant.h; sourceTree = "<group>"; };
@@ -80,35 +69,45 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2226942D1EBE56F600EAC25F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8311C6DE191CCB2300AF33F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8311C6E7191CCB2300AF33F3 /* CoreGraphics.framework in Frameworks */,
-				8311C6E9191CCB2300AF33F3 /* UIKit.framework in Frameworks */,
-				8311C6E5191CCB2300AF33F3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8311C6F9191CCB2300AF33F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8311C6FE191CCB2300AF33F3 /* XCTest.framework in Frameworks */,
-				8311C700191CCB2300AF33F3 /* UIKit.framework in Frameworks */,
-				8311C6FF191CCB2300AF33F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222694311EBE56F600EAC25F /* Warcraft3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2226943A1EBE570F00EAC25F /* WarCarftIII_Tests_01.m */,
+				2226943B1EBE570F00EAC25F /* WarCarftIII_Tests_07.m */,
+				2226943C1EBE570F00EAC25F /* WarCarftIII_Tests_08.m */,
+				2226943D1EBE570F00EAC25F /* WarCraftIII_Tests_02.m */,
+				2226943E1EBE570F00EAC25F /* WarCraftIII_Tests_03.m */,
+				2226943F1EBE570F00EAC25F /* WarCraftIII_Tests_04.m */,
+				222694401EBE570F00EAC25F /* WarCraftIII_Tests_05.m */,
+				222694411EBE570F00EAC25F /* WarCraftIII_Tests_06.m */,
+				222694421EBE570F00EAC25F /* WarCraftIII_Tests_09.m */,
+				2226944C1EBE572000EAC25F /* Info.plist */,
+			);
+			path = Warcraft3Tests;
+			sourceTree = "<group>";
+		};
 		8311C6D8191CCB2300AF33F3 = {
 			isa = PBXGroup;
 			children = (
 				8311C6EA191CCB2300AF33F3 /* Warcraft 3 */,
-				8311C703191CCB2300AF33F3 /* Warcraft 3Tests */,
-				8311C6E3191CCB2300AF33F3 /* Frameworks */,
+				222694311EBE56F600EAC25F /* Warcraft3Tests */,
 				8311C6E2191CCB2300AF33F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,20 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				8311C6E1191CCB2300AF33F3 /* Warcraft 3.app */,
-				8311C6FC191CCB2300AF33F3 /* Warcraft 3Tests.xctest */,
+				222694301EBE56F600EAC25F /* Warcraft3Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8311C6E3191CCB2300AF33F3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8311C6E4191CCB2300AF33F3 /* Foundation.framework */,
-				8311C6E6191CCB2300AF33F3 /* CoreGraphics.framework */,
-				8311C6E8191CCB2300AF33F3 /* UIKit.framework */,
-				8311C6FD191CCB2300AF33F3 /* XCTest.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8311C6EA191CCB2300AF33F3 /* Warcraft 3 */ = {
@@ -164,35 +152,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8311C703191CCB2300AF33F3 /* Warcraft 3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8311C71D191CCC7800AF33F3 /* WarCarftIII_Tests_01.m */,
-				8311C721191CCC7800AF33F3 /* WarCraftIII_Tests_02.m */,
-				8311C722191CCC7800AF33F3 /* WarCraftIII_Tests_03.m */,
-				8311C723191CCC7800AF33F3 /* WarCraftIII_Tests_04.m */,
-				8311C724191CCC7800AF33F3 /* WarCraftIII_Tests_05.m */,
-				8311C725191CCC7800AF33F3 /* WarCraftIII_Tests_06.m */,
-				8311C71E191CCC7800AF33F3 /* WarCarftIII_Tests_07.m */,
-				8311C71F191CCC7800AF33F3 /* WarCarftIII_Tests_08.m */,
-				8311C726191CCC7800AF33F3 /* WarCraftIII_Tests_09.m */,
-				8311C704191CCB2300AF33F3 /* Supporting Files */,
-			);
-			path = "Warcraft 3Tests";
-			sourceTree = "<group>";
-		};
-		8311C704191CCB2300AF33F3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8311C705191CCB2300AF33F3 /* Warcraft 3Tests-Info.plist */,
-				8311C706191CCB2300AF33F3 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2226942F1EBE56F600EAC25F /* Warcraft3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222694371EBE56F600EAC25F /* Build configuration list for PBXNativeTarget "Warcraft3Tests" */;
+			buildPhases = (
+				2226942C1EBE56F600EAC25F /* Sources */,
+				2226942D1EBE56F600EAC25F /* Frameworks */,
+				2226942E1EBE56F600EAC25F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222694361EBE56F600EAC25F /* PBXTargetDependency */,
+			);
+			name = Warcraft3Tests;
+			productName = Warcraft3Tests;
+			productReference = 222694301EBE56F600EAC25F /* Warcraft3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8311C6E0191CCB2300AF33F3 /* Warcraft 3 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8311C70D191CCB2300AF33F3 /* Build configuration list for PBXNativeTarget "Warcraft 3" */;
@@ -210,24 +190,6 @@
 			productReference = 8311C6E1191CCB2300AF33F3 /* Warcraft 3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8311C6FB191CCB2300AF33F3 /* Warcraft 3Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8311C710191CCB2300AF33F3 /* Build configuration list for PBXNativeTarget "Warcraft 3Tests" */;
-			buildPhases = (
-				8311C6F8191CCB2300AF33F3 /* Sources */,
-				8311C6F9191CCB2300AF33F3 /* Frameworks */,
-				8311C6FA191CCB2300AF33F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8311C702191CCB2300AF33F3 /* PBXTargetDependency */,
-			);
-			name = "Warcraft 3Tests";
-			productName = "Warcraft 3Tests";
-			productReference = 8311C6FC191CCB2300AF33F3 /* Warcraft 3Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,7 +200,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Lighthouse Labs";
 				TargetAttributes = {
-					8311C6FB191CCB2300AF33F3 = {
+					2226942F1EBE56F600EAC25F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7GT6EK8D4J;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 8311C6E0191CCB2300AF33F3;
 					};
 				};
@@ -256,12 +221,20 @@
 			projectRoot = "";
 			targets = (
 				8311C6E0191CCB2300AF33F3 /* Warcraft 3 */,
-				8311C6FB191CCB2300AF33F3 /* Warcraft 3Tests */,
+				2226942F1EBE56F600EAC25F /* Warcraft3Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2226942E1EBE56F600EAC25F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2226944D1EBE572000EAC25F /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8311C6DF191CCB2300AF33F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,17 +244,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8311C6FA191CCB2300AF33F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8311C708191CCB2300AF33F3 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2226942C1EBE56F600EAC25F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222694441EBE570F00EAC25F /* WarCarftIII_Tests_07.m in Sources */,
+				222694431EBE570F00EAC25F /* WarCarftIII_Tests_01.m in Sources */,
+				2226944B1EBE570F00EAC25F /* WarCraftIII_Tests_09.m in Sources */,
+				2226944A1EBE570F00EAC25F /* WarCraftIII_Tests_06.m in Sources */,
+				222694481EBE570F00EAC25F /* WarCraftIII_Tests_04.m in Sources */,
+				222694471EBE570F00EAC25F /* WarCraftIII_Tests_03.m in Sources */,
+				222694491EBE570F00EAC25F /* WarCraftIII_Tests_05.m in Sources */,
+				222694461EBE570F00EAC25F /* WarCraftIII_Tests_02.m in Sources */,
+				222694451EBE570F00EAC25F /* WarCarftIII_Tests_08.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8311C6DD191CCB2300AF33F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,29 +276,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8311C6F8191CCB2300AF33F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8311C727191CCC7800AF33F3 /* WarCarftIII_Tests_01.m in Sources */,
-				8311C72B191CCC7800AF33F3 /* WarCraftIII_Tests_02.m in Sources */,
-				8311C72C191CCC7800AF33F3 /* WarCraftIII_Tests_03.m in Sources */,
-				8311C72D191CCC7800AF33F3 /* WarCraftIII_Tests_04.m in Sources */,
-				8311C72E191CCC7800AF33F3 /* WarCraftIII_Tests_05.m in Sources */,
-				8311C72F191CCC7800AF33F3 /* WarCraftIII_Tests_06.m in Sources */,
-				8311C728191CCC7800AF33F3 /* WarCarftIII_Tests_07.m in Sources */,
-				8311C729191CCC7800AF33F3 /* WarCarftIII_Tests_08.m in Sources */,
-				8311C730191CCC7800AF33F3 /* WarCraftIII_Tests_09.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8311C702191CCB2300AF33F3 /* PBXTargetDependency */ = {
+		222694361EBE56F600EAC25F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8311C6E0191CCB2300AF33F3 /* Warcraft 3 */;
-			targetProxy = 8311C701191CCB2300AF33F3 /* PBXContainerItemProxy */;
+			targetProxy = 222694351EBE56F600EAC25F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -330,17 +295,48 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8311C706191CCB2300AF33F3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8311C707191CCB2300AF33F3 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		222694381EBE56F600EAC25F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7GT6EK8D4J;
+				INFOPLIST_FILE = Warcraft3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meech-ward.test.Warcraft3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warcraft 3.app/Warcraft 3";
+			};
+			name = Debug;
+		};
+		222694391EBE56F600EAC25F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7GT6EK8D4J;
+				INFOPLIST_FILE = Warcraft3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meech-ward.test.Warcraft3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warcraft 3.app/Warcraft 3";
+			};
+			name = Release;
+		};
 		8311C70B191CCB2300AF33F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -379,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -416,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -452,79 +448,18 @@
 			};
 			name = Release;
 		};
-		8311C711191CCB2300AF33F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Warcraft 3.app/Warcraft 3";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Warcraft 3/Warcraft 3-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/usr/lib/**",
-				);
-				INFOPLIST_FILE = "Warcraft 3Tests/Warcraft 3Tests-Info.plist";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-					"-force_load",
-					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
-					"-ObjC",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		8311C712191CCB2300AF33F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Warcraft 3.app/Warcraft 3";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Warcraft 3/Warcraft 3-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/usr/lib/**",
-				);
-				INFOPLIST_FILE = "Warcraft 3Tests/Warcraft 3Tests-Info.plist";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-					"-force_load",
-					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
-					"-ObjC",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouseLabs.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		222694371EBE56F600EAC25F /* Build configuration list for PBXNativeTarget "Warcraft3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222694381EBE56F600EAC25F /* Debug */,
+				222694391EBE56F600EAC25F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8311C6DC191CCB2300AF33F3 /* Build configuration list for PBXProject "Warcraft 3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -539,15 +474,6 @@
 			buildConfigurations = (
 				8311C70E191CCB2300AF33F3 /* Debug */,
 				8311C70F191CCB2300AF33F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8311C710191CCB2300AF33F3 /* Build configuration list for PBXNativeTarget "Warcraft 3Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8311C711191CCB2300AF33F3 /* Debug */,
-				8311C712191CCB2300AF33F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
