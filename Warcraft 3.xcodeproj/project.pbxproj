@@ -17,7 +17,6 @@
 		222694491EBE570F00EAC25F /* WarCraftIII_Tests_05.m in Sources */ = {isa = PBXBuildFile; fileRef = 222694401EBE570F00EAC25F /* WarCraftIII_Tests_05.m */; };
 		2226944A1EBE570F00EAC25F /* WarCraftIII_Tests_06.m in Sources */ = {isa = PBXBuildFile; fileRef = 222694411EBE570F00EAC25F /* WarCraftIII_Tests_06.m */; };
 		2226944B1EBE570F00EAC25F /* WarCraftIII_Tests_09.m in Sources */ = {isa = PBXBuildFile; fileRef = 222694421EBE570F00EAC25F /* WarCraftIII_Tests_09.m */; };
-		2226944D1EBE572000EAC25F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2226944C1EBE572000EAC25F /* Info.plist */; };
 		8311C6EF191CCB2300AF33F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8311C6ED191CCB2300AF33F3 /* InfoPlist.strings */; };
 		8311C6F1191CCB2300AF33F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C6F0191CCB2300AF33F3 /* main.m */; };
 		8311C6F5191CCB2300AF33F3 /* WCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8311C6F4191CCB2300AF33F3 /* WCAppDelegate.m */; };
@@ -231,7 +230,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2226944D1EBE572000EAC25F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
