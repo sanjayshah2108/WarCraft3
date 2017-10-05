@@ -15,4 +15,9 @@
 //@property (assign) int healthPoints;
 //@property (assign) int attackPower;
 
+- (void)damage:(int)damage;
+
+- (void)attack:(Unit *)enemy withDamage:(int)damage;
+
+
 @end

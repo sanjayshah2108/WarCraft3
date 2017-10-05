@@ -8,6 +8,7 @@
 
 #import "Barracks.h"
 #import "Footman.h"
+#import "Peasant.h"
 
 @implementation Barracks
 
@@ -21,7 +22,7 @@
 
 -(Footman*) trainFootman{
     
-if ((_food>2)&&(_gold>135)){
+if ((_food>=2)&&(_gold>=135)){
     
     _food = _food-2;
     _gold = _gold - 135;
@@ -35,11 +36,35 @@ else return nil;
 }
 
 -(BOOL) canTrainFootman{
-    if ((_food>2)&&(_gold>135)){
+    if ((_food>=2)&&(_gold>=135)){
         return true;
         
     }
     else return false;
 }
+
+-(Peasant*) trainPeasant{
+    
+    if ((_food>=5)&&(_gold>=90)){
+        
+        _food = _food-5;
+        _gold = _gold - 90;
+        
+        
+        Peasant *newPeasant = [[Peasant alloc]init];
+        return newPeasant;
+    }
+    
+    else return nil;
+}
+
+-(BOOL) canTrainPeasant{
+    if ((_food>=5)&&(_gold>=90)){
+        return true;
+        
+    }
+    else return false;
+}
+
 
 @end

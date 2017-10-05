@@ -10,4 +10,11 @@
 
 @implementation Peasant
 
+-(instancetype)init{
+    self = [super init];
+    self.healthPoints = 35;
+    self.attackPower = 0;
+    return self;
+}
+
 @end

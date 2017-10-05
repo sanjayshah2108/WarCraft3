@@ -18,4 +18,5 @@
 -(BOOL) canTrainFootman;
 
 
+
 @end
